@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">AllMixedUp!!</string>
+    <string name="about_us">About Us</string>
+    <string name="cart">Cart</string>
+    <string name="faq">FAQ</string>
+    <string name="forget_password"><u>Forget Password? </u></string>
+    <string name="create_acc_link"><u>New Customer? Create Account</u></string>
+    <string name="Create_account_btn">Create Account</string>
+    <string name="returning_customer"><u>Returning Customer</u></string>
+    <string name="TermsAndConditions">I have agreed to <u>Terms and Conditions</u>.</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="order_history">Order History</string>
+    <string name="contsct_us">Contact Us</string>
+    <string name="location">Location</string>
+    <string name="Login_Info"><u>Login Information</u></string>
+    <string name="Address"><u>Address</u></string>
+    <string name="Address_real"><i>All Mixed Up! 809 West Park Ave, Ocean Township, NJ 07712</i></string>
+</resources>
