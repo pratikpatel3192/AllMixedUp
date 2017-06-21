@@ -5,6 +5,7 @@ import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
+import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.CameraPosition;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
@@ -27,7 +28,7 @@ public class LocationActivity extends FragmentActivity implements OnMapReadyCall
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
 
-        mMap.addMarker(new MarkerOptions().position(ALL_MIXED_UP_LOCATION).title("All Mixed Up!"));
+        mMap.addMarker(new MarkerOptions().position(ALL_MIXED_UP_LOCATION).title("All Mixed Up!").snippet("809 West Park Ave, Ocean Township NJ 07712").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ORANGE)).visible(true));
         //mMap.moveCamera(CameraUpdateFactory.newLatLng(ALL_MIXED_UP_LOCATION));
 
             mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(ALL_MIXED_UP_LOCATION, 20));
