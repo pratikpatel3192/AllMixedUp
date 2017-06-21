@@ -13,12 +13,13 @@ import android.widget.Toast;
 import  com.example.pratik.allmixedup.menuFragments.Menu;
 import com.example.pratik.allmixedup.menuFragments.*;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends Base {
 
 
     private TabLayout tabLayout;
     Context context;
     private ViewPager viewPager;
+    boolean loggin=false;
 
 
     @Override
@@ -81,48 +82,6 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-    public boolean onCreateOptionsMenu(android.view.Menu menu)
-    {
-        MenuInflater m=getMenuInflater();
-        m.inflate(R.menu.main,menu);
-
-        return super.onCreateOptionsMenu(menu);
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(final MenuItem item) {
-
-        switch (item.getItemId()) {
-            case R.id.action_about_us:
-                Intent i=new Intent(this,AboutUsActivity.class);
-                startActivity(i);
-                Toast.makeText(this,"ABOUT US",Toast.LENGTH_SHORT).show();
-                return true;
-            case R.id.action_faq:
-                Toast.makeText(this,"FAQ",Toast.LENGTH_SHORT).show();
-                return true;
-            case R.id.action_cart:
-                Toast.makeText(this,"CART",Toast.LENGTH_SHORT).show();
-                return true;
-            case R.id.action_contact_us:
-                Intent i3=new Intent(this,ContactUs.class);
-                startActivity(i3);
-                Toast.makeText(this,"CONTACT US",Toast.LENGTH_SHORT).show();
-                return true;
-            case R.id.action_login:
-                Intent i4=new Intent(this,LoginActivity.class);
-                startActivity(i4);
-                Toast.makeText(this,"CONTACT US",Toast.LENGTH_SHORT).show();
-                return true;
-            case R.id.action_location:
-                Intent i5=new Intent(this,LocationActivity.class);
-                startActivity(i5);
-                Toast.makeText(this,"LOCATION",Toast.LENGTH_SHORT).show();
-                return true;
-            default:
-                return super.onOptionsItemSelected(item);
-        }
-    }
 
 }
 

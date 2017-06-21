@@ -19,7 +19,7 @@ import com.example.pratik.allmixedup.menuFragments.Specials;
  * Created by prati on 06-06-2017.
  */
 
-public class SaladActivity extends AppCompatActivity{
+public class SaladActivity extends Base{
     private TabLayout tabLayout;
     Context context;
     private ViewPager viewPager;

@@ -7,7 +7,7 @@ import android.support.v7.app.AppCompatActivity;
  * Created by prati on 09-06-2017.
  */
 
-public class CreateAccountActivity extends AppCompatActivity{
+public class CreateAccountActivity extends Base{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

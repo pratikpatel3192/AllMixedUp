@@ -20,7 +20,7 @@ import com.example.pratik.allmixedup.menuFragments.Specials;
  * Created by prati on 06-06-2017.
  */
 
-public class PaniniActivity extends AppCompatActivity{
+public class PaniniActivity extends Base{
     private TabLayout tabLayout;
     Context context;
     private ViewPager viewPager;

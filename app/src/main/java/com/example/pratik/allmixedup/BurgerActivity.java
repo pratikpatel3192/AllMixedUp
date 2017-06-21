@@ -16,7 +16,7 @@ import com.example.pratik.allmixedup.Toppings.Toppings;
  * Created by prati on 06-06-2017.
  */
 
-public class BurgerActivity extends AppCompatActivity{
+public class BurgerActivity extends Base{
     private TabLayout tabLayout;
     Context context;
     private ViewPager viewPager;

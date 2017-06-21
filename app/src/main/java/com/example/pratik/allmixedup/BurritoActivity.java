@@ -17,7 +17,7 @@ import com.example.pratik.allmixedup.Toppings.Tortilla;
  * Created by prati on 06-06-2017.
  */
 
-public class BurritoActivity extends AppCompatActivity{
+public class BurritoActivity extends Base{
     private TabLayout tabLayout;
     Context context;
     private ViewPager viewPager;

@@ -33,6 +33,8 @@ public class LocationActivity extends FragmentActivity implements OnMapReadyCall
 
             mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(ALL_MIXED_UP_LOCATION, 20));
 
+
+
             /*CameraPosition cameraPosition = new CameraPosition.Builder()
                     .target(ALL_MIXED_UP_LOCATION)      // Sets the center of the map to location user
                     .zoom(17)                   // Sets the zoom

@@ -7,7 +7,7 @@ import android.support.v7.app.AppCompatActivity;
  * Created by prati on 07-06-2017.
  */
 
-public class AboutUsActivity extends AppCompatActivity{
+public class AboutUsActivity extends Base{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
