@@ -30,7 +30,7 @@ public class LocationActivity extends FragmentActivity implements OnMapReadyCall
         mMap.addMarker(new MarkerOptions().position(ALL_MIXED_UP_LOCATION).title("All Mixed Up!"));
         //mMap.moveCamera(CameraUpdateFactory.newLatLng(ALL_MIXED_UP_LOCATION));
 
-            mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(ALL_MIXED_UP_LOCATION, 16));
+            mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(ALL_MIXED_UP_LOCATION, 20));
 
             /*CameraPosition cameraPosition = new CameraPosition.Builder()
                     .target(ALL_MIXED_UP_LOCATION)      // Sets the center of the map to location user
