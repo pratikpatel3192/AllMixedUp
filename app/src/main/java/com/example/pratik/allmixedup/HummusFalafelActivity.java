@@ -27,21 +27,21 @@ public class HummusFalafelActivity extends Base{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_humusfalafel);
+        setContentView(R.layout.activity_main);
         setTitle("Hummus & Falafel");
 
 
         /// s= (Button) findViewById(R.id.salad);
         //Adding toolbar to the activity
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar_humusfalafel);
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
         //Initializing the tablayout
-        tabLayout = (TabLayout) findViewById(R.id.tabLayout_humusfalafel);
+        tabLayout = (TabLayout) findViewById(R.id.tabLayout);
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
 
         //Initializing viewPager
-        viewPager = (ViewPager) findViewById(R.id.pager_humusfalafel);
+        viewPager = (ViewPager) findViewById(R.id.pager);
         Pager adapter = new Pager(getSupportFragmentManager());
         adapter.addpage(new Breads());
         adapter.addpage(new Toppings());

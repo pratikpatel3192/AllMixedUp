@@ -24,9 +24,9 @@ public class Menu extends Fragment
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
-        View v=inflater.inflate(R.layout.menu,null);
+        View v=inflater.inflate(R.layout.recycler_view_model,null);
 
-        RecyclerView recyclerView= (RecyclerView) v.findViewById(R.id.recycler_view_menu);
+        RecyclerView recyclerView= (RecyclerView) v.findViewById(R.id.recycler_view_model);
         recyclerView.setLayoutManager(new LinearLayoutManager(this.getActivity()));
         recyclerView.setAdapter(new RecyclerAdapter(this.getActivity(),getMenu()));
         return v;
@@ -38,7 +38,7 @@ public String toString()
     public ArrayList<Items> getMenu() {
         ArrayList<Items> i=new ArrayList<>();
         Items m;
-        m=new Items("Salad",R.drawable.salad);
+        m=new Items("Salad",R.drawable.grilled_chicken_salad);
         i.add(m);
 
         m=new Items("Panini",R.drawable.panini);

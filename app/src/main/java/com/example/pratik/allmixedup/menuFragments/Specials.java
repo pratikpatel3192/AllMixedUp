@@ -20,9 +20,9 @@ public class Specials extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
 
-        View v = inflater.inflate(R.layout.specials, null);
+        View v = inflater.inflate(R.layout.recycler_view_model, null);
 
-        RecyclerView recyclerView = (RecyclerView) v.findViewById(R.id.recycler_view_specials);
+        RecyclerView recyclerView = (RecyclerView) v.findViewById(R.id.recycler_view_model);
         recyclerView.setLayoutManager(new LinearLayoutManager(this.getActivity()));
         recyclerView.setAdapter(new RecyclerAdapter(this.getActivity(), getSpecials()));
         return v;

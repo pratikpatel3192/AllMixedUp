@@ -6,7 +6,7 @@
     android:layout_height="match_parent">
 
     <android.support.v7.widget.Toolbar
-        android:id="@+id/toolbar_salad"
+        android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="?android:attr/colorActivatedHighlight"
@@ -16,7 +16,7 @@
 
     <!-- our tablayout to display tabs  -->
     <android.support.design.widget.TabLayout
-        android:id="@+id/tabLayout_salad"
+        android:id="@+id/tabLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="?android:attr/colorPressedHighlight"
@@ -24,7 +24,7 @@
         android:theme="@style/ThemeOverlay.AppCompat.Dark" />
 
     <android.support.v4.view.ViewPager
-        android:id="@+id/pager_salad"
+        android:id="@+id/pager"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
 

@@ -22,9 +22,9 @@ public class Seasoning extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
-        View v=inflater.inflate(R.layout.seasoning,null);
+        View v=inflater.inflate(R.layout.recycler_view_model,null);
 
-        RecyclerView recyclerView= (RecyclerView) v.findViewById(R.id.recycler_view_seasoning);
+        RecyclerView recyclerView= (RecyclerView) v.findViewById(R.id.recycler_view_model);
         recyclerView.setLayoutManager(new LinearLayoutManager(this.getActivity()));
         recyclerView.setAdapter(new RecyclerAdapter(this.getActivity(),getSeasoning()));
         return v;
