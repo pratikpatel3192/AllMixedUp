@@ -28,6 +28,7 @@
 
     <TextView
         android:id="@+id/textView_rec"
+        style="@android:style/TextAppearance.Material.Widget.TextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
@@ -35,8 +36,10 @@
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
         android:layout_weight="1"
+        android:background="@color/common_google_signin_btn_text_dark_default"
         android:text="TextView"
-        android:textSize="20dp"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="24sp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView"
