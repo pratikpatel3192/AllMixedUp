@@ -19,6 +19,7 @@ public class Base extends AppCompatActivity
     MenuInflater m;
     public boolean onCreateOptionsMenu(android.view.Menu menu)
     {
+
         m = getMenuInflater();
         m.inflate(R.menu.main, menu);
 
